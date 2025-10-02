@@ -1,7 +1,7 @@
 # 📖 Mini Blog (PHP + SQLite)
 
 A simple blog platform built with pure PHP and SQLite.
-This project demonstrates PHP fundamentals, including CRUD operations, sessions, pagination, search, categories, and flash messages — without using a framework.
+This project demonstrates PHP fundamentals, including CRUD operations, sessions, pagination, search, categories, and flash messages without using a framework.
 
 # 🚀 Features
 
