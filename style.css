@@ -1,0 +1,122 @@
+/* General layout */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 700px;
+    margin: 40px auto;
+    background: #f4f6f8;
+    color: #333;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+/* Links & buttons */
+a, button {
+    background: #3498db;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+a:hover, button:hover {
+    background: #2980b9;
+}
+
+/* Flash messages */
+.flash {
+    background: #d4edda;
+    color: #155724;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Error messages */
+.error {
+    background: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Posts */
+.post {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.post h2 {
+    margin-top: 0;
+    color: #34495e;
+}
+
+.post small {
+    display: block;
+    margin-top: 8px;
+    color: #888;
+    font-size: 12px;
+}
+/* Pagination */
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 6px 12px;
+    background: #ecf0f1;
+    color: #2c3e50;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.pagination a:hover {
+    background: #3498db;
+    color: #fff;
+}
+
+.pagination a.active {
+    background: #3498db;
+    color: #fff;
+    font-weight: bold;
+}
+/* Search Form */
+.search-form {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.search-form input[type="text"] {
+    padding: 8px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-form button {
+    padding: 8px 15px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background: #2980b9;
+}
+
