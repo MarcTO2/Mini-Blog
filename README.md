@@ -1,56 +1,37 @@
-📖 Mini Blog (PHP + SQLite)
+# 📖 Mini Blog (PHP + SQLite)
 
 A simple blog platform built with pure PHP and SQLite.
 This project demonstrates PHP fundamentals, including CRUD operations, sessions, pagination, search, categories, and flash messages — without using a framework.
 
-🚀 Features
+# 🚀 Features
 
 Create, Read, Update, Delete (CRUD) posts
-
 SQLite database (lightweight, file-based)
-
 Pagination (browse posts page by page)
-
 Search (filter posts by title/content)
-
 Categories (organize posts by topic)
-
 Flash messages (success messages after actions)
-
 Clean UI styling with CSS
-
 Confirmation dialogs for delete actions
 
 Basic security practices:
-
 Prepared statements (prevent SQL injection)
-
 htmlspecialchars() (prevent XSS)
 
-📂 Project Structure
-Mini-Blog/
-│
-├── blog.sqlite        # SQLite database file
-├── index.php          # Home page (list + search + pagination + filter)
-├── new.php            # Create a new post
-├── edit.php           # Edit an existing post
-├── delete.php         # Delete a post
-├── style.css          # Basic CSS styling
-└── README.md          # Project documentation
 
-⚙️ Setup Instructions
-1. Clone the repository
+## ⚙️ Setup Instructions
+# 1. Clone the repository
 git clone https://github.com/yourusername/mini-blog-php.git
 cd mini-blog-php
 
-2. Ensure PHP and SQLite are installed
+# 2. Ensure PHP and SQLite are installed
 
 Check versions:
 
 php -v
 sqlite3 --version
 
-3. Create the database
+# 3. Create the database
 
 Run in terminal:
 
@@ -75,13 +56,13 @@ CREATE TABLE categories (
 INSERT INTO categories (name) VALUES ('Tech'), ('Lifestyle'), ('News');
 .exit
 
-4. Start PHP’s built-in server
+# 4. Start PHP’s built-in server
 php -S localhost:8000
 
 
 Open your browser at http://localhost:8000/index.php
 
-🛠️ Technologies Used
+# 🛠️ Technologies Used
 
 PHP 8+
 
@@ -91,7 +72,7 @@ PDO (PHP Data Objects) → database abstraction layer
 
 HTML + CSS
 
-📚 Concepts Demonstrated
+# 📚 Concepts Demonstrated
 
 This project is an educational resource to learn core PHP concepts:
 
@@ -135,7 +116,7 @@ SQL injection prevention
 
 XSS prevention
 
-🔑 How It Works
+# 🔑 How It Works
 Home (index.php)
 
 Shows all posts with pagination and a search bar.
@@ -168,7 +149,7 @@ Stored in $_SESSION['flash'].
 
 Displayed once, then cleared.
 
-📈 Future Improvements
+# 📈 Future Improvements
 
 User authentication (login/register)
 
@@ -184,6 +165,6 @@ Move to OOP (MVC structure)
 
 Deploy to a web server (Apache/Nginx)
 
-👨‍💻 Author
+# 👨‍💻 Author
 
 Built with ❤️ by Marcel as part of a PHP learning journey.
